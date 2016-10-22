@@ -1,0 +1,219 @@
+var gridData = [
+  {
+      "emp_name": "Jackob",
+      "emp_type": "Contract",
+      "emp_skills": "Java",
+      "emp_salary": "2L",
+      "id": "1"
+  },
+  {
+      "emp_name": "John",
+      "emp_type": "Contract",
+      "emp_skills": "HTML",
+      "emp_salary": "3L",
+      "id": "2"
+  },
+  {
+      "emp_name": "Alex",
+      "emp_type": "Permanent",
+      "emp_skills": "Java",
+      "emp_salary": "8L",
+      "id": "3"
+  },
+  {
+      "emp_name": "Demon",
+      "emp_type": "Contract",
+      "emp_skills": "Photoshop",
+      "emp_salary": "2L",
+      "id": "4"
+  },
+  {
+      "emp_name": "Elyas",
+      "emp_type": "Permanent",
+      "emp_skills": "Java",
+      "emp_salary": "9L",
+      "id": "5"
+  },
+  {
+      "emp_name": "Mona",
+      "emp_type": "Contract",
+      "emp_skills": "Java",
+      "emp_salary": "12L",
+      "id": "6"
+  },
+  {
+      "emp_name": "Alexander",
+      "emp_type": "Contract",
+      "emp_skills": "javascript",
+      "emp_salary": "2L",
+      "id": "7"
+  },
+  {
+      "emp_name": "Jackob",
+      "emp_type": "Contract",
+      "emp_skills": "Java",
+      "emp_salary": "2L",
+      "id": "8"
+  },
+  {
+      "emp_name": "John",
+      "emp_type": "Contract",
+      "emp_skills": "HTML",
+      "emp_salary": "3L",
+      "id": "9"
+  },
+  {
+      "emp_name": "Alex",
+      "emp_type": "Permanent",
+      "emp_skills": "Java",
+      "emp_salary": "8L",
+      "id": "10"
+  },
+  {
+      "emp_name": "Demon",
+      "emp_type": "Contract",
+      "emp_skills": "Photoshop",
+      "emp_salary": "2L",
+      "id": "11"
+  },
+  {
+      "emp_name": "Elyas",
+      "emp_type": "Permanent",
+      "emp_skills": "Java",
+      "emp_salary": "9L",
+      "id": "12"
+  },
+  {
+      "emp_name": "Mona",
+      "emp_type": "Contract",
+      "emp_skills": "Java",
+      "emp_salary": "12L",
+      "id": "13"
+  },
+  {
+      "emp_name": "Alexander",
+      "emp_type": "Contract",
+      "emp_skills": "javascript",
+      "emp_salary": "2L",
+      "id": "14"
+  },
+  {
+      "emp_name": "Jackob",
+      "emp_type": "Contract",
+      "emp_skills": "Java",
+      "emp_salary": "2L",
+      "id": "15"
+  },
+  {
+      "emp_name": "John",
+      "emp_type": "Contract",
+      "emp_skills": "HTML",
+      "emp_salary": "3L",
+      "id": "16"
+  },
+  {
+      "emp_name": "Alex",
+      "emp_type": "Permanent",
+      "emp_skills": "Java",
+      "emp_salary": "8L",
+      "id": "17"
+  },
+  {
+      "emp_name": "Demon",
+      "emp_type": "Contract",
+      "emp_skills": "Photoshop",
+      "emp_salary": "2L",
+      "id": "18"
+  },
+  {
+      "emp_name": "Elyas",
+      "emp_type": "Permanent",
+      "emp_skills": "Java",
+      "emp_salary": "9L",
+      "id": "19"
+  },
+  {
+      "emp_name": "Mona",
+      "emp_type": "Contract",
+      "emp_skills": "Java",
+      "emp_salary": "12L",
+      "id": "20"
+  },
+  {
+      "emp_name": "Alexander",
+      "emp_type": "Contract",
+      "emp_skills": "javascript",
+      "emp_salary": "2L",
+      "id": "21"
+  },
+  {
+      "emp_name": "Jackob",
+      "emp_type": "Contract",
+      "emp_skills": "Java",
+      "emp_salary": "2L",
+      "id": "22"
+  },
+  {
+      "emp_name": "John",
+      "emp_type": "Contract",
+      "emp_skills": "HTML",
+      "emp_salary": "3L",
+      "id": "23"
+  },
+  {
+      "emp_name": "Alex",
+      "emp_type": "Permanent",
+      "emp_skills": "Java",
+      "emp_salary": "8L",
+      "id": "24"
+  },
+  {
+      "emp_name": "Demon",
+      "emp_type": "Contract",
+      "emp_skills": "Photoshop",
+      "emp_salary": "2L",
+      "id": "25"
+  },
+  {
+      "emp_name": "Elyas",
+      "emp_type": "Permanent",
+      "emp_skills": "Java",
+      "emp_salary": "9L",
+      "id": "26"
+  },
+  {
+      "emp_name": "Mona",
+      "emp_type": "Contract",
+      "emp_skills": "Java",
+      "emp_salary": "12L",
+      "id": "27"
+  },
+  {
+      "emp_name": "Alexander",
+      "emp_type": "Contract",
+      "emp_skills": "javascript",
+      "emp_salary": "2L",
+      "id": "28"
+  },
+  {
+      "emp_name": "Jackob",
+      "emp_type": "Contract",
+      "emp_skills": "Java",
+      "emp_salary": "2L",
+      "id": "29"
+  },
+  {
+      "emp_name": "John",
+      "emp_type": "Contract",
+      "emp_skills": "HTML",
+      "emp_salary": "3L",
+      "id": "30"
+  },
+  {
+      "emp_name": "Alex",
+      "emp_type": "Permanent",
+      "emp_skills": "Java",
+      "emp_salary": "8L",
+      "id": "31"
+  }
+]
