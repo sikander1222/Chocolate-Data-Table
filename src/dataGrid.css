@@ -1,0 +1,514 @@
+@charset "utf-8";
+/* CSS Document */
+
+.dataGridContainer {
+    width: 100%;
+    border: 1px solid #D7D7D7;
+    background: #f7f7f7;
+}
+.dataGridContainer .showfilter{display:inline-block;}
+
+.dataGridContentHeader, .dataGridContentFooter {
+      background: rgba(78, 46, 40, .8);;
+}
+
+.dataGridHeader{
+    background:rgba(78, 46, 40, 1);
+}
+
+.dataGridContentHeader ul, .dataGridContentFooter ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    white-space: nowrap;
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.selectAll span:nth-child(2), .selectAll.active span:nth-child(1){
+    display: none;
+}
+.selectAll.active span:nth-child(2){
+    display: inline;
+}
+.dataGridContentBody {
+    width: 100%;
+}
+
+.dataGridContentBody ul {
+    list-style: none;
+    display: table;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.dataGridContentBody>ul>li {
+    display: block;
+    width: 100%;
+    float: left;
+    border-bottom: 1px #e7e7e7 solid;
+    background: #fff;
+}
+
+
+.dataGridContentBody ul ul {
+    white-space: nowrap;
+}
+
+.dataGridFooter {
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.dataGridFooter>div {
+    width: 50%;
+    display: inline-block;
+    white-space: normal;
+}
+
+.dataGridFooter div:nth-child(2) {
+    text-align: right;
+}
+
+.dataGridFooter ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+
+}
+
+.dataGridFooter ul li {
+    display: inline-block;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+
+}
+
+.dataGridFooter ul li:nth-child(1),.dataGridFooter ul li:nth-child(3), .dataGridFooter ul li ul li {
+    list-style: none;
+    padding: 5px 12px;
+    display: inline-block;
+    margin: 0px 2px;
+    border-radius: 25px;
+}
+
+.dataGridFooter ul li:nth-child(1):hover,.dataGridFooter ul li:nth-child(3):hover, .dataGridFooter ul li ul li:hover {
+    background: #d7d7d7;
+    cursor: pointer;
+}
+
+.dataGridFooter ul li ul li.active, .dataGridFooter ul li ul li.active:hover {
+    background: #64648d;
+    border-color: #64648d;
+    color: #fff;
+}
+
+.dataGridContainer .sorting_asc {
+    background: no-repeat center right;
+}
+
+.dataGridContentHeader ul li {
+    position: relative;
+}
+
+.dataGridContentHeader ul li > span {
+    width: 15px;
+    font-size: 12px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.dataGridContentHeader ul li .selectAll, .dataGridContentFooter ul li .selectAll{
+    width: 35px;
+    font-size: 24px;
+    padding: 0px 5px;
+    cursor: pointer;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.dataGridContentHeader ul li {
+    cursor: pointer;
+}
+.dataGridContentHeader ul li >span span:nth-child(3){
+    display: block;
+}
+.dataGridContentHeader ul li >span span:nth-child(1),.dataGridContentHeader ul li >span span:nth-child(2){
+    display: none;
+}
+.dataGridContentHeader ul li.ascending > span span:nth-child(2),
+.dataGridContentHeader ul li.descending > span span:nth-child(1){
+    display: block;
+    color: #085696;
+}
+.dataGridContentHeader ul li.ascending > span span:nth-child(3),
+.dataGridContentHeader ul li.descending > span span:nth-child(3) {
+    display: none;
+}
+
+.nodatafound {
+    text-align: center;
+    height: 90px;
+    color: #d7d7d7;
+}
+
+.nodatafound span {
+    display: block !important;
+    font-size: 38px;
+}
+
+
+.selectedCount {
+    color: white;
+}
+.dataGridHeader .optinContainer .dataGridToolbar>div {
+    display: inline-block;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    margin: 0px 2px;
+    color: white;
+}
+
+.dataGridHeader .optinContainer .dataGridToolbar>div div:nth-child(2) {
+    text-align: left;
+}
+
+.gridOptionActiveBg {
+    background: rgb(254,254,254);
+    color:#333 !important;
+}
+
+.gridOptionContent {
+    position: absolute;
+    height: auto;
+    padding: 10px;
+    top: 28px;
+    right: 0px;
+    white-space: nowrap;
+    z-index: 2;
+    background: rgb(254,254,254);
+    box-shadow: 1px 5px 10px #d7d7d7;
+    color: #333;
+}
+
+.elem-full-width {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.dataGridTableIcon {
+    padding: 0px !important;
+    cursor: pointer;
+}
+.dataGridTableIcon .dataGridOptionBtn{
+    margin: 5px;
+}
+
+.dataGridOption:hover {
+    background: #8C8CBA;
+    cursor: pointer;
+}
+
+.gridOptionActiveBg:hover {
+    background: #fff;
+}
+	/****/
+.searchContainer {
+    width: 200px !important;
+    padding: 0px !important;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.searchContainer .searchfield {
+    width: 60%;
+    display: inline-block;
+    white-space: normal;
+    border-right: 1px solid #a7a7a7;
+}
+
+.searchContainer .searchfield input {
+    font-size: 14px;
+    width: 100%;
+    padding: 4px;
+    border: none;
+}
+
+.searchContainer .searchfield input:focus, .searchContainer .selectfield select:focus {
+    outline: none;
+}
+
+.searchContainer .selectfield {
+    display: inline-block;
+    white-space: normal;
+    width:40%;
+}
+
+.searchContainer .selectfield select {
+    width: 100%;
+    padding: 4px 0px;
+    border: none;
+}
+/*****/
+.dataGridToolbar{
+    display: inline-block;
+}
+.dataGridSettingIcon:hover{
+    cursor: pointer;
+}
+.dataGridSettingIcon.active{
+    background: #5bc0de;
+    color: #fff;
+}
+.dataGridContentBody ul li ul li:nth-child(1){
+    position: relative;
+}
+
+.dataGridContentBody ul li ul li:nth-child(1) div.selectRow{
+    width: 35px;
+    font-size: 24px;
+    padding: 0px 5px;
+    display:table-cell;
+    vertical-align: middle;
+    color: #bbb;
+}
+.dataGridContentBody ul li ul li:nth-child(1) div.gridTableCell{
+    display: table-cell;
+    vertical-align: middle;
+    width:100%;
+}
+.entrycount{
+    padding: 4px 0px;
+    border: none;
+}
+.dataGridSearchIcon.active{
+    background: #8C8CBA;
+}
+
+.dataGridContentHeader ul li .gridThContent, .dataGridContentFooter ul li .gridTfContent{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.searchContent>li:hover {
+    cursor: pointer;
+    background: rgba(250,250,250,0.5) !important;
+}
+
+.searchContent>li>ul li:nth-child(1) div:nth-child(1) span:nth-child(2){
+    display: none;
+}
+.searchContent>li>ul.selected li:nth-child(1) div:nth-child(1) span:nth-child(1){
+    display: none;
+}
+.searchContent>li>ul.selected li:nth-child(1) div:nth-child(1) span:nth-child(2){
+    display: inline;
+    color: #777;
+}
+
+.selectedCount, .dataGridDeleteIcon, .dataGridEditIcon {
+    display: none;
+}
+
+.dataGridDeleteIcon:hover, .dataGridEditIcon:hover, .dataGridAddIcon:hover {
+    cursor: pointer;
+}
+
+.editRow, .addRow, .viewRow {
+    width: 100%;
+    background: #fff;
+    display: none;
+    box-shadow: inset 0 0 10px #d7d7d7;
+}
+
+.addRow {
+    border-top: 1px solid #d7d7d7;
+    display: none;
+}
+
+.editRow form, .addRow form {
+    margin-top: 10px;
+    float: left;
+    display: block;
+    border-bottom: 1px solid #d7d7d7;
+    width: 100%;
+}
+
+
+@media only screen
+and (max-width : 600px) {
+    .dataGridContentBody ul li ul li {
+        padding: 2px 4px;
+        display: none;
+        white-space: normal;
+        vertical-align: middle;
+    }
+
+    .dataGridContentBody ul li ul li:nth-child(1) {
+        padding: 4px;
+        display: block;
+        white-space: normal;
+        font-weight: bold;
+    }
+
+    .dataGridContentBody ul li ul.expanded li:nth-child(1) {
+        border-bottom: 1px dashed #d7d7d7;
+    }
+
+    .dataGridContentBody ul li ul li>span:nth-child(1) {
+        display: inline-block;
+        font-weight: bold;
+    }
+
+    .dataGridHeader {
+        padding: 5px;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .dataGridHeader .dataGridSelectFilter, .dataGridHeader .optinContainer {
+        white-space: normal;
+        position: relative;
+
+    }
+    .dataGridHeader .dataGridSelectFilter{
+	float: left;
+    }
+    .dataGridHeader .optinContainer{
+	text-align: right;
+	float: right;
+	width: 199px;
+    }
+
+    .dataGridContentHeader ul li, .dataGridContentFooter ul li {
+        display: none;
+    }
+
+    .dataGridContentHeader ul li:nth-child(1), .dataGridContentFooter ul li:nth-child(1) {
+        display: inline-block;
+        white-space: normal;
+        color: #fff;
+        width: 100%;
+	padding: 0px 4px;
+    }
+
+    .dataGridContentBody ul li ul li:nth-child(1) .gridTableCell span {
+        float: right;
+    }
+
+    .dataGridContentBody ul li ul li:nth-child(1).nodatafound span {
+        float: none;
+    }
+
+    .dataGridContentBody ul li ul li:nth-child(1) div:nth-child(2) span .fa-angle-up, .expanded .fa-angle-down {
+        display: none;
+    }
+
+    .expanded .fa-angle-up {
+        display: inline-block !important;
+    }
+
+    .dataGridFooter ul:nth-child(2) {
+        display: none;
+    }
+
+    .paginationContainer {
+        display: none !important;
+    }
+
+    .dataGridContentBody>ul>li>ul.expanded li {
+        display: block;
+    }
+
+    .dataGridHeader .optinContainer .dataGridToolbar>div.icoVisible{display : inline-block}
+    .dataGridSearchIcon{
+	display: inline-block;
+    }
+    .searchContainer{
+	display: none;
+    }
+    .dataGridTableIcon{
+	display: none !important;
+    }
+    .dataGridHeader > .selectCountWrapper { display: block; float: left; padding: 5px 0px 0px 5px;}
+    .dataGridHeader .dataGridSelectFilter>.selectCountWrapper { display: none;}
+}
+
+@media only screen
+and (min-width : 601px) {
+    .dataGridContentBody>ul>li>ul.expanded li {
+        display: table-cell;
+    }
+
+    .dataGridContentBody ul li ul li {
+        padding: 2px 4px;
+        display: table-cell;
+        white-space: normal;
+        width: 20%;
+        vertical-align: middle;
+    }
+
+    .dataGridContentBody ul li ul li .gridTableCell span:nth-child(1) {
+	display: none;
+    }
+
+    .dataGridHeader {
+        padding: 5px;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .dataGridHeader .dataGridSelectFilter {
+        display: inline-block !important;
+        white-space: normal;
+	float: left;
+    }
+
+    .dataGridHeader .optinContainer {
+        display: inline-block !important;
+        white-space: normal;
+        text-align: right;
+	padding: 0px 5px;
+	float: right;
+    }
+
+    .dataGridContentHeader ul li, .dataGridContentFooter ul li {
+        padding: 0px 4px;
+        display: table-cell;
+        white-space: normal;
+        color: #fff;
+        width: 20%;
+	vertical-align: middle;
+    }
+
+
+    .dataGridFooter ul:nth-child(2) {
+        display: inline;
+    }
+
+    .paginationContainer {
+        display: block;
+    }
+    .dataGridHeader .optinContainer .dataGridToolbar>div.icoVisible{display : none}
+    .dataGridContentBody ul li ul li>span:nth-child(1){display: none;}
+        .dataGridSearchIcon{
+	display: none !important;
+    }
+    .dataGridTableIcon{
+	display: inline-block;
+    }
+    .dataGridHeader >.selectCountWrapper { display: none;}
+    .dataGridHeader .dataGridSelectFilter>.selectCountWrapper { display: inline;}
+    .dataGridContentBody ul li ul li.sorted {
+        background: rgba(150,150,150,0.1);
+    }
+}

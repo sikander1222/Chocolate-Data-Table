@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background:#f8f8f8;
+}
+.navbar-brand img{
+margin-top:-6px;
+}
+.navbar-default{
+background:#fff;
+}
+.login_container{
+float:none;
+margin:0 auto;
+}
+.button-container{
+	margin-bottom:10px;
+}
+.addform-container, .bulkform-container{
+	overflow:hidden;
+	padding:10px;
+	border:1px solid #d7d7d7;
+	margin-bottom:10px;
+	display:none;
+}
+.upload-button-container{
+	margin-top:45px;
+}
+
+#button_debug, .themeflat_portal_footer{
+	display: none ;
+}
+.webpublish_login_tabarea{
+margin-top:-30px;
+}
+form label{
+font-weight:normal;
+}
+
+.navbar {
+	background-color: #4E2E28;
+
+}
+.navbar a{
+	text-decoration: none;
+	color: #ffffff;
+}
